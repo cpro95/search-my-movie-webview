@@ -7,8 +7,8 @@ int WINAPI WinMain(HINSTANCE hInt, HINSTANCE hPrevInst, LPSTR lpCmdLine,
 #else
 int main() {
 #endif
-  /* Open wikipedia in a 800x600 resizable window */
-  webview("Minimal webview example",
+  /* Open in resizable window */
+  webview("Search My Movie - webview version",
 	  "https://movies-cpro95.netlify.com", 700, 990, 1);
   return 0;
 }
